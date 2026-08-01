@@ -8,7 +8,7 @@ function Menu() {
   return (
     <div className="mt-2 text-sm">
       <div className="flex flex-col gap-2 mx-auto gap-y-2">
-        <span className="p-4 text-gray-400 hidden lg:block">MENU</span>
+        <span className="ml-7 text-gray-400 hidden lg:block">MENU</span>
         <Link
           href="/"
           className="flex items-center justify-center gap-2 py-2 text-gray-500"
@@ -40,7 +40,7 @@ function Menu() {
           <BiHome size={20} />
           <span className="hidden lg:block text-gray-600">Home</span>
         </Link>
-        <span className="p-4 text-gray-400 hidden lg:block">OTHER</span>
+        <span className=" pt-5 ml-7 text-gray-400 hidden lg:block">OTHER</span>
         <Link
           href="/"
           className="flex items-center justify-center gap-2 py-2 text-gray-500"
