@@ -8,6 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        bg: "#F8FCFF",
+        card: "#EAF6FF",
+        primary: "#B9E4FF",
+        secondary: "#8FD3FF",
+        border: "#CFEAFF",
+        text: "#1E3A5F",
+        muted: "#6B8CA8",
+      },
+      fontFamily: {
+        sans: ["var(--font-inter)"],
+        mono: ["var(--font-jetbrains)"],
+        heading: ["var(--font-montserrat)"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -17,4 +31,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
