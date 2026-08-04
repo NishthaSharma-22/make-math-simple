@@ -18,7 +18,7 @@ const config: Config = {
         muted: "#6B8CA8",
       },
       fontFamily: {
-        sans: ["var(--font-inter)"],
+        inter: ["var(--font-inter)"],
         mono: ["var(--font-jetbrains)"],
         heading: ["var(--font-montserrat)"],
       },

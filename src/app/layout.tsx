@@ -12,7 +12,11 @@ const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-montserrat",
 });
-const inter = Inter({ subsets: ["latin"] });
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   title: "Make Math Simple",
