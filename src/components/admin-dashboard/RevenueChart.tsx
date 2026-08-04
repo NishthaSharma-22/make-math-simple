@@ -5,7 +5,6 @@ import { CartesianGrid, LabelList, Line, LineChart, XAxis } from "recharts";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -66,11 +65,11 @@ export default function RevenueChart() {
             <Line
               dataKey="revenue"
               type="monotone"
-              stroke="hsl(var(--chart-1))"
+              stroke="hsl(var(--chart-3))"
               strokeWidth={3}
               dot={{
                 r: 5,
-                fill: "hsl(var(--chart-1))",
+                fill: "hsl(var(--chart-3))",
               }}
               activeDot={{
                 r: 7,

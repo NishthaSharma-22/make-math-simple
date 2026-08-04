@@ -90,7 +90,7 @@ export default function TotalSessions() {
 
             <Bar
               dataKey="sessions"
-              fill="hsl(var(--chart-2))"
+              fill="hsl(var(--chart-3))"
               radius={8}
               barSize={24}
             >
